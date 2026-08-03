@@ -1,0 +1,12 @@
+import turtle
+
+turtle.goto(90,10)
+turtle.color("cyan")
+turtle.bgcolor("black")
+turtle.title("Triangle")
+turtle.pensize(10)
+for i in range(3) :
+
+    turtle.left(120)
+    turtle.forward(150)
+    turtle.forward(150)
